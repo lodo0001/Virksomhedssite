@@ -1,8 +1,12 @@
-.grid_1{
+img {
+  width: 100%;
+}
+
+.grid_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 1200px;
-  
+  width: 900px;
+
   margin: 0 auto;
   gap: 20px;
   padding-bottom: 150px;
@@ -11,12 +15,9 @@
 .grid_2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
- 
+
   width: fit-content;
   margin: 2rem auto;
-  
-  
-  
 }
 
 .grid_2 img {
@@ -25,16 +26,98 @@
   object-fit: contain;
 }
 
-
-.background{
-   padding: 5rem;
-  background-color: #FBF7EE; /* lys baggrund */
+.background {
+  padding: 5rem;
+  background-color: #fbf7ee; /* lys baggrund */
   width: 100%;
   box-sizing: border-box;
   margin: 2rem auto 8rem auto;
+}
+
+.baggrund {
+  position: relative; /* gør containeren reference for absolut position */
+  padding: 2rem;
+  background-color: #fbf7ee;
+  box-sizing: border-box;
+  overflow: hidden; /* evt for at skjule overskydende tekst */
+}
+
+.baggrund:hover {
+  background-color: #e0d7c0;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+
+.baggrund img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.grid1p {
+  position: absolute;
+  bottom: 15px;  /* flyt teksten 15px op fra bunden af .baggrund */
+  left: 0.7em;
+  color: rgb(0, 0, 0);
+  font-size: 3vw;
+
+  margin: 0;
+  background-color: white;
+  width: 180px; /* fast bredde */
+  padding-left: 35px;
+  padding-right: 13px;
+  padding-top: 5px;
+  z-index: 10;
+  white-space: nowrap; /* undgå at teksten bryder linje */
+}
+
+.grid1pp{
+  position: absolute;
+  bottom: 15px;  /* flyt teksten 15px op fra bunden af .baggrund */
   
+  color: rgb(0, 0, 0);
+  font-size: 3vw;
+ 
+  margin: 0;
+  
+  background-color: white;
+  width: 180px; /* fast bredde */
+  padding-left: 35px;
+  padding-right: 15px;
+  padding-top: 5px;
+  z-index: 10;
+  
+  
+  white-space: nowrap; /* undgå at teksten bryder linje */
   
 }
+
+.grid1ppp{
+  position: absolute;
+  bottom: 15px;  /* flyt teksten 15px op fra bunden af .baggrund */
+  right: 0.3em;
+  
+  color: rgb(0, 0, 0);
+  font-size: 3vw;
+  
+  margin: 0;
+  
+  background-color: white;
+  width: 180px; /* fast bredde */
+  padding-top: 5px;
+  padding-left: 27px;
+  padding-right: 50px;
+  z-index: 10;
+  
+  
+  white-space: nowrap; /* undgå at teksten bryder linje */
+  
+}
+
+
+
 
 
 .content {
