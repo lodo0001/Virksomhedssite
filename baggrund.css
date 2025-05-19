@@ -1,0 +1,16 @@
+.background{
+    padding: 5rem;
+    background-color: #fbf7ee; /* lys baggrund */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 2rem auto 8rem auto;
+}
+
+
+.background1{
+    padding: 5rem;
+    background-color: #EEE8DB; /* lys baggrund */
+    width: 100%;
+    box-sizing: border-box;
+    margin: 2rem auto 8rem auto;
+}
