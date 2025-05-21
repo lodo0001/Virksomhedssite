@@ -121,3 +121,46 @@ header {
   margin-bottom: 10px;
   
   }
+
+  @media (width <= 800px) {
+    .footer-container {
+      gap: 10px;  /* mindre afstand mellem sektioner */
+      margin-left: 10px; /* mindre margin så det fylder mere */
+      flex-wrap: wrap; /* sørg for de kan pakke sig på flere linjer */
+    }
+    
+    .footer-section,
+    .footer-section1 {
+      padding-left: 10px; /* mindsk padding for tættere tekst */
+    }
+    .header-section {
+      gap: 7px;
+      padding: 0 10px;
+      margin-left: -16px; /* rykker sektionen 10px til venstre */
+    }
+    
+    .header-section li {
+      padding: 5px 8px;  /* mindre polstring for bedre fit */
+    }
+    .bestillinger a::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      bottom: -27px; /* afstand under teksten */
+      transform: 0;
+      width:0;
+      height: 30px;
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      opacity: 0;
+      
+    }
+    body, html {
+      overflow-x: hidden;
+    }
+  }
+  
+    
+   
+  
