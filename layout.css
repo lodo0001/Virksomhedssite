@@ -1,0 +1,158 @@
+
+.section1{
+    background-color: #FCF5E7;
+}
+
+.vh-h1{
+    text-align: center;
+}
+
+.historie{
+   
+    padding-top: 90px;
+    align-items: center;
+    line-height: 2;
+}
+
+.år{
+padding-left: 150px;
+}
+
+.tekst{
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    line-height: 2;
+}
+
+
+.billede1{
+    width: 350px;
+    margin-left: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+    
+   
+}
+
+.billede2{
+width: 350px;
+margin-left: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.section3 {
+    background-color: #FCF5E7 ;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    line-height: 2;
+
+}
+
+.section3 img{
+    width: 350px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.fu-h2{
+padding-left: 20px;
+}
+
+.section3 p{
+    padding: 20px;
+}
+
+
+
+
+@media (width >=600px){
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.vh-h1{
+    text-align: center;
+}
+
+.section1{
+    background-color: #FCF5E7;
+}
+
+
+.historie{
+    padding-top: 90px;
+    align-items: center;
+    line-height: 2;
+}
+
+.år{
+padding-left: 650px;
+}
+
+.tekst{
+    padding: 450px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    line-height: 2;
+    
+}
+
+
+.billede1{
+    width: 655px;
+    padding-left: 140px;
+    margin-left: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+    
+   
+}
+
+.billede2{
+width: 400px;
+margin-left: 40px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.section3{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background-color: #FCF5E7 ;
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    line-height: 2;
+}
+
+.section3 img{
+width: 350px;
+padding-left: 140px;
+margin-top: 30px;
+margin-bottom: 30px;
+grid-column: 1;
+}
+
+.tekst3{
+ padding-top: 30px;
+ padding-right: 100px;
+ padding-left: 100px;
+    grid-column: 2;
+}
+}
