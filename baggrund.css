@@ -1,5 +1,5 @@
 .background{
-    padding: 5rem;
+    padding: 10rem;
     background-color: #fbf7ee; /* lys baggrund */
     width: 100%;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 
 
 .background1{
-    padding: 5rem;
+    padding: 2rem;
     background-color: #EEE8DB; /* lys baggrund */
     width: 100%;
     box-sizing: border-box;
