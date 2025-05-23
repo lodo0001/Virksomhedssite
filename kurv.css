@@ -12,7 +12,7 @@ h1 {
 .kurv {
   max-width: 600px;
   margin: auto;
-  padding: 2em;
+  padding: 0.8rem;
 }
 
 .kurv-header,
@@ -22,6 +22,9 @@ h1 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.8rem;
+  h3 {
+    font-family: "judson";
+  }
 }
 
 .kurv-items img {
