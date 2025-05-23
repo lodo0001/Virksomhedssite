@@ -106,16 +106,17 @@ padding-left: 650px;
 }
 
 .tekst{
-    padding: 450px;
+    padding: 400px;
     padding-top: 50px;
     padding-bottom: 60px;
     line-height: 2;
+    text-align: left;
     
 }
 
 
 .billede1{
-    width: 655px;
+    width: 795px;
     padding-left: 140px;
     margin-left: 40px;
 margin-top: 20px;
@@ -142,7 +143,7 @@ margin-bottom: 20px;
 }
 
 .section3 img{
-width: 350px;
+width: 550px;
 padding-left: 140px;
 margin-top: 30px;
 margin-bottom: 30px;
