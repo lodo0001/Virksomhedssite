@@ -8,10 +8,6 @@ h1 {
   font-size: 2.2rem;
 }
 
-h3 {
-  padding: 0.5em;
-}
-
 .åbningstider,
 .kontakt,
 .vej {
@@ -21,6 +17,11 @@ h3 {
   text-align: center;
   line-height: 1.4;
   font-size: larger;
+
+  h3 {
+    font-family: "judson";
+    padding: 0.5em;
+  }
 }
 
 iframe {
