@@ -1,16 +1,22 @@
-.background{
-    padding: 10rem;
-    background-color: #fbf7ee; /* lys baggrund */
-    width: 100%;
-    box-sizing: border-box;
-    margin: 2rem auto 8rem auto;
+.background {
+  padding: 10rem;
+  background-color: #fbf7ee; /* lys baggrund */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2rem auto 8rem auto;
 }
 
+.background1 {
+  padding: 2rem;
+  background-color: #eee8db; /* lys baggrund */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2rem auto 8rem auto;
+}
+.Wiener {
+  padding: 10rem;
 
-.background1{
-    padding: 2rem;
-    background-color: #EEE8DB; /* lys baggrund */
-    width: 100%;
-    box-sizing: border-box;
-    margin: 2rem auto 8rem auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2rem auto 8rem auto;
 }
