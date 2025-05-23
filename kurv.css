@@ -1,0 +1,59 @@
+main {
+  background-color: #eee8db;
+}
+
+h1 {
+  text-align: center;
+  padding: 3rem;
+  padding-top: 5rem;
+  font-size: 2.2rem;
+}
+
+.kurv {
+  max-width: 600px;
+  margin: auto;
+  padding: 2em;
+}
+
+.kurv-header,
+.kurv-items,
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.kurv-items img {
+  width: 120px;
+  height: auto;
+}
+
+.antal button {
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  justify-content: flex-end;
+}
+
+.kasse {
+  text-align: center;
+  margin: 5rem;
+}
+
+.kasse button {
+  padding: 0.8rem 2rem;
+  background-color: #d9d9d9;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+}

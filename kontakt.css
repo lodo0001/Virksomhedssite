@@ -1,0 +1,32 @@
+main {
+  background-color: #eee8db;
+}
+
+h1 {
+  text-align: center;
+  padding: 3rem;
+  font-size: 2.2rem;
+}
+
+h3 {
+  padding: 0.5em;
+}
+
+.åbningstider,
+.kontakt,
+.vej {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  line-height: 1.4;
+  font-size: larger;
+}
+
+iframe {
+  padding: 3rem;
+}
+
+section {
+  margin-bottom: 4rem;
+}
