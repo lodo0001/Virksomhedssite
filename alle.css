@@ -19,18 +19,7 @@ header {
   padding: 0;
 }
 
-.lottie{
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* eller center, afhængig af indhold */
- 
-  margin-bottom: 100px;
-  width: 100vw; /* Fylder hele viewportens bredde */
-  position: relative; /* Sikrer at placeringen er relativ til skærmen */
-  left: 0;
-  right: 0;
-  
-}
+
 
 @font-face {
   font-family: "judson";
