@@ -10,7 +10,9 @@ img {
   margin: 0 auto;
   gap: 20px;
   padding-bottom: 150px;
+  
 }
+
 
 .grid_2 {
   display: grid;
@@ -56,64 +58,25 @@ img {
   display: block;
 }
 
-.grid1p {
+.grid1p,
+.grid1pp,
+.grid1ppp {
   position: absolute;
-  bottom: 15px;  /* flyt teksten 15px op fra bunden af .baggrund */
-  left: 0.7em;
-  color: rgb(0, 0, 0);
-  font-size: 3vw;
-
-  margin: 0;
-  background-color: white;
-  width: 180px; /* fast bredde */
-  padding-left: 35px;
-  padding-right: 13px;
-  padding-top: 5px;
-  z-index: 10;
-  white-space: nowrap; /* undgå at teksten bryder linje */
-}
-
-.grid1pp{
-  position: absolute;
-  bottom: 15px;  /* flyt teksten 15px op fra bunden af .baggrund */
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
   
   color: rgb(0, 0, 0);
   font-size: 3vw;
- 
   margin: 0;
-  
   background-color: white;
-  width: 180px; /* fast bredde */
-  padding-left: 35px;
-  padding-right: 15px;
-  padding-top: 5px;
+  
+  width: auto;       /* or fixed like 180px if you prefer */
+  padding: 5px 20px; /* adjust horizontal padding */
+  
   z-index: 10;
-  
-  
-  white-space: nowrap; /* undgå at teksten bryder linje */
-  
-}
-
-.grid1ppp{
-  position: absolute;
-  bottom: 15px;  /* flyt teksten 15px op fra bunden af .baggrund */
-  right: 0.3em;
-  
-  color: rgb(0, 0, 0);
-  font-size: 3vw;
-  
-  margin: 0;
-  
-  background-color: white;
-  width: 180px; /* fast bredde */
-  padding-top: 5px;
-  padding-left: 27px;
-  padding-right: 50px;
-  z-index: 10;
-  
-  
-  white-space: nowrap; /* undgå at teksten bryder linje */
-  
+  white-space: nowrap; /* or normal if you want line breaks */
+  text-align: center;
 }
 
 
@@ -122,4 +85,70 @@ img {
 
 .content {
   height: 650px;
+}
+
+@media (max-width: 800px) {
+  .grid_1 {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .grid_2 {
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .grid_2 img {
+    height: auto;
+    object-fit: contain;
+  }
+  .baggrund:hover {
+    background-color: #fbf7ee;
+  transform: none;
+  transition: none;
+  cursor: pointer;
+ 
+}
+.grid1p{
+  font-size: 6vw;      
+  width: auto;         
+  padding-left: 5em;
+  padding-right: 6em;
+  white-space: normal; 
+
+}
+
+.grid1pp{
+  font-size: 6vw;
+  width: auto;
+  padding: 0;
+  white-space: normal;
+
+text-decoration: none !important;
+  display: flex;
+  justify-content: center;  
+  position: relative;
+}
+
+
+.grid1ppp {
+  font-size: 6vw;
+  width: auto;
+  padding: 0;
+  white-space: normal;
+
+  display: flex;
+  justify-content: center;  
+  position: relative;
+  
+}
+.baggrund a {
+  text-decoration: none !important;
+  color: inherit;  /* optional: keep link text color consistent */
+}
+
 }
