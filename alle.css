@@ -11,10 +11,25 @@ header {
 
   width: 100%;
   height: 90px;
+  position: static !important;
+  z-index: auto !important;
 }
 * {
   margin: 0;
   padding: 0;
+}
+
+.lottie{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* eller center, afhængig af indhold */
+ 
+  margin-bottom: 100px;
+  width: 100vw; /* Fylder hele viewportens bredde */
+  position: relative; /* Sikrer at placeringen er relativ til skærmen */
+  left: 0;
+  right: 0;
+  
 }
 
 @font-face {
@@ -60,6 +75,7 @@ h3 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  
 }
 
 .header-nav {
@@ -72,6 +88,7 @@ h3 {
   margin: 0;
   padding: 0;
   display: flex;
+  
 }
 
 .header-section li {
