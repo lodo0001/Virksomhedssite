@@ -58,6 +58,20 @@ img {
   display: block;
 }
 
+.lottie{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-top: 50px;
+ margin-left: 210px;
+  margin-bottom: 100px;
+  width: 70vw;
+  position: relative; 
+  left: 0;
+  right: 0;
+  
+}
+
 .grid1p,
 .grid1pp,
 .grid1ppp {
