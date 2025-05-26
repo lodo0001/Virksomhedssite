@@ -13,6 +13,8 @@ header {
   height: 90px;
   position: static !important;
   z-index: auto !important;
+  font-family: "inter-bold";
+  font-size: medium;
 }
 * {
   margin: 0;
@@ -27,6 +29,11 @@ header {
 @font-face {
   font-family: "inter";
   src: url("fonts/Inter/static/Inter_18pt-Light.ttf");
+}
+
+@font-face {
+  font-family: "inter-bold";
+  src: url("fonts/Inter/static/Inter_24pt-Medium.ttf");
 }
 
 h1 {
